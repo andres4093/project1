@@ -1,0 +1,14 @@
+<html>
+<head><title>Sneider</title></head>
+<body>
+<form action='ejecucion.php' method='post'>
+usuario<br>
+<input type='text' name='user' placeholder='usuario'>
+<br>
+contraseña<br>
+<input type='number' name='pass' placeholder='contraseña'>
+<br>
+<input type='submit' name='enviar' value='enviar'> 
+</form>
+</body>
+</html>
