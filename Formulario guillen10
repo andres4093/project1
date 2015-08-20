@@ -1,59 +1,84 @@
 <html>
+<div style="margin-left:500px;">
 <head>FORMULARIO</head>
-<body>
-  <table class="table table-condensed">
-  <thead align="left">
-  
+</div>
+<br>
+<br>
+
+<body bgcolor="#D3D3D3">
+  <div style="margin-left:500px;">
+  <table border="1" >
+
+					
        <tr>
-	<td><p>Tipo de documento</p>
+	<td><p>Nombre</p>
+        </td>
         <td>
-          <select>
-             <option>Seleccionar</option>
-          </select>
-         </td>
-         </td>
-         <td><p>Pais de origen</p>
+          <input type="text" name="nombre" style="width: 186px;">
+          </td>        
+           <tr>
+           <td> 
+           <p>Apellido</p>
+           </td>
+         
+         <td>
+           <input type="text" name="apellido" style="width: 186px;">
+           </td>
+           </tr>
+          
+         <tr>
+         <td>
+         <p>Tipo de documento</p>
          <td>
          <select>
-         <option>Seleccionar</option>
+         <option>Cedula de ciudadania</option>
+          <option>Tarjeta de identidad</option>
          </select>
          </td>
-         <td><p>Fecha de nacimiento</p>
+         </td>
+ 
+         <tr>
+         <td>
+         <p>No Identificación</p><td>
+         <input type="text" name="noidentifi" style="width: 186px;">
+         </td>
+         </td>
+         </tr>
+         <br>
+         <tr>
+         <td>
+         <p>Fecha de nacimiento</p>
+         </td>
          <td>
          <input type="date" name="fecha">
          </td>
          </tr>
          <tr>
-         <td><p>No Identificación</p><td>
-         <input type="text" name="noidentifi">
+         <td>
+         <p>Sexo</p>
          </td>
-         </td>
-
-         <td></td>
-
-          <td><p>Nombre</p>
-          <input type="text" name="nombre">
+          
+          <td>
+          <input type="checkbox"/> Femenino
+          <input type="checkbox"/> Masculino
           </td>
-                        
           </tr>
+         <tr>
+         <td>
+         <p>Pais de origen</p>
+         </td>
+         <td>
+         <select>
+         <option>Pais</option>
+         <option>China</option>
+         <option>Colombia</option>
+         </select>
+         </td>
+         </tr>
 
+  </table>   
+  </div>             
+ 
 
-           <tr>
-           <td><p>Apellido</p><td>
-           <input type="text" name="apellido">
-           </td>
-           </td>
-                        
-           <td></td>
-
-           <td><p>Sexo</p><td>
-           <input type="checkbox"/> Femenino
-           <input type="checkbox"/> Masculino
-           </td>
-            </td>
-            </tr>
-
-  </table>                
-  </thead>
 </body>
 </html>
