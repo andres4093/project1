@@ -1,0 +1,9 @@
+<html>
+<head>
+</head>
+<body>
+Usuario: <input type="text" name="usuario">
+Password: <input type="password" name="password">
+<input type="submit" value="Ingresar">
+</body>
+</html>
