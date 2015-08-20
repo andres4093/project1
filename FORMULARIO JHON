@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>FORMULARIO DE REGISTRO</title>
+</head>
+
+<form>
+
+            <input type="text" name="nombre" placeholder="ingrese nombres "><br>
+             Apellido :<br>
+            <input type="text" name="apellido" placeholder="ingrese nombres "><br>
+            Cedula:<br>
+            <input type="number" name="cedula" placeholder="ingresar cedula"><br>
+            Telefono:<br>
+            <input type="number" name="telefono" placeholder="ingrese número telefonico"><br>
+            Celular:<br>
+            <input type="number" name="celular" placeholder="ingrese número celular"><br>
+            Email:<br>
+            <input type="email" name="email" placeholder="ingesar email"><br>
+            Fecha de nacimiento:<br>
+            <input type="date" name="fecha" placeholder="ingrese fecha de nacimiento"><br>
+            <p>
+            <input type="button" value="GUARDAR"><br>
+            </div>
+</form>
+</body>
+</html>
