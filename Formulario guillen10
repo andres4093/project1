@@ -1,0 +1,59 @@
+<html>
+<head>FORMULARIO</head>
+<body>
+  <table class="table table-condensed">
+  <thead align="left">
+					
+       <tr>
+	<td><p>Tipo de documento</p>
+        <td>
+          <select>
+             <option>Seleccionar</option>
+          </select>
+         </td>
+         </td>
+         <td><p>Pais de origen</p>
+         <td>
+         <select>
+         <option>Seleccionar</option>
+         </select>
+         </td>
+         <td><p>Fecha de nacimiento</p>
+         <td>
+         <input type="date" name="fecha">
+         </td>
+         </tr>
+         <tr>
+         <td><p>No Identificación</p><td>
+         <input type="text" name="noidentifi">
+         </td>
+         </td>
+
+         <td></td>
+
+          <td><p>Nombre</p>
+          <input type="text" name="nombre">
+          </td>
+                        
+          </tr>
+
+
+           <tr>
+           <td><p>Apellido</p><td>
+           <input type="text" name="apellido">
+           </td>
+           </td>
+                        
+           <td></td>
+
+           <td><p>Sexo</p><td>
+           <input type="checkbox"/> Femenino
+           <input type="checkbox"/> Masculino
+           </td>
+            </td>
+            </tr>
+
+  </table>                
+  </thead>
+</body>
+</html>
