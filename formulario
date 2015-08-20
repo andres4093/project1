@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>HOLA MUNDO</title>
+</head>
+<t3>Formulario</t3>
+<br> <br>
+Nombre
+
+ <INPUT NAME="nombre">
+  <br> <br>
+ Apellido
+
+ <INPUT NAME="apellidos">
+ <br> <br>
+ Edad
+<INPUT  type="number"="edad">
+ <br> <br>
+Fecha de Nacimento 
+<input type="date">
+<P>
+ <INPUT TYPE="submit" VALUE="Guardar">
+ <INPUT TYPE="reset" VALUE="Inicializar"></FORM>
+ 
+<body>
+</body>
+</html>
