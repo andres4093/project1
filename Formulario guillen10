@@ -1,0 +1,84 @@
+<html>
+<div style="margin-left:500px;">
+<head>FORMULARIO</head>
+</div>
+<br>
+<br>
+
+<body bgcolor="#D3D3D3">
+  <div style="margin-left:500px;">
+  <table border="1" >
+
+					
+       <tr>
+	<td><p>Nombre</p>
+        </td>
+        <td>
+          <input type="text" name="nombre" style="width: 186px;">
+          </td>        
+           <tr>
+           <td> 
+           <p>Apellido</p>
+           </td>
+         
+         <td>
+           <input type="text" name="apellido" style="width: 186px;">
+           </td>
+           </tr>
+          
+         <tr>
+         <td>
+         <p>Tipo de documento</p>
+         <td>
+         <select>
+         <option>Cedula de ciudadania</option>
+          <option>Tarjeta de identidad</option>
+         </select>
+         </td>
+         </td>
+ 
+         <tr>
+         <td>
+         <p>No Identificación</p><td>
+         <input type="text" name="noidentifi" style="width: 186px;">
+         </td>
+         </td>
+         </tr>
+         <br>
+         <tr>
+         <td>
+         <p>Fecha de nacimiento</p>
+         </td>
+         <td>
+         <input type="date" name="fecha">
+         </td>
+         </tr>
+         <tr>
+         <td>
+         <p>Sexo</p>
+         </td>
+          
+          <td>
+          <input type="checkbox"/> Femenino
+          <input type="checkbox"/> Masculino
+          </td>
+          </tr>
+         <tr>
+         <td>
+         <p>Pais de origen</p>
+         </td>
+         <td>
+         <select>
+         <option>Pais</option>
+         <option>China</option>
+         <option>Colombia</option>
+         </select>
+         </td>
+         </tr>
+
+  </table>   
+  </div>             
+ 
+
+</body>
+</html>
